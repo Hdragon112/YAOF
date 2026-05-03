@@ -52,8 +52,8 @@ sed -i 's/option timeout 30/option timeout 60/g' package/system/rpcd/files/rpcd.
 sed -i 's#20) \* 1000#60) \* 1000#g' feeds/luci/modules/luci-base/htdocs/luci-static/resources/rpc.js
 
 ### FW4 ###
-rm -rf ./package/network/config/firewall4
-cp -rf ../openwrt_ma/package/network/config/firewall4 ./package/network/config/firewall4
+#rm -rf ./package/network/config/firewall4
+#cp -rf ../openwrt_ma/package/network/config/firewall4 ./package/network/config/firewall4
 
 ### 必要的 Patches ###
 # Patch arm64 型号名称
