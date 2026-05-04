@@ -304,7 +304,7 @@ jobs:
       - name: Create release
         if: inputs.build_firmware
         id: create_release
-        uses: ncipollo/release-action@v1.14.0
+        uses: ncipollo/release-action@main
         with:
           name: OpenWRT-${{ env.latest_release }}
           allowUpdates: true
