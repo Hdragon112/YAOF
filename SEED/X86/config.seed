@@ -311,9 +311,6 @@ CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-poweroff=y
 CONFIG_PACKAGE_luci-app-ramfree=y
 CONFIG_PACKAGE_luci-app-ssr-plus=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG=y
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_NONE_Server is not set
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server=y
 CONFIG_PACKAGE_luci-app-taskplan=y
 CONFIG_PACKAGE_luci-app-timecontrol=y
 CONFIG_PACKAGE_luci-app-ttyd=y
@@ -430,6 +427,7 @@ CONFIG_PACKAGE_vmlinux-btf=y
 CONFIG_PACKAGE_wget-ssl=y
 CONFIG_PACKAGE_xray-plugin=y
 CONFIG_PACKAGE_xtables-nft=y
+CONFIG_PACKAGE_xz-utils=y
 CONFIG_PACKAGE_zoneinfo-africa=y
 CONFIG_PACKAGE_zoneinfo-all=y
 CONFIG_PACKAGE_zoneinfo-america=y
