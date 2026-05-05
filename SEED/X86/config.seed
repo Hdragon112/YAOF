@@ -469,3 +469,6 @@ CONFIG_boost-runtime-shared=y
 CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
 # CONFIG_OPENSSL_WITH_ERROR_MESSAGES is not set
+CONFIG_PACKAGE_luci-app-control-timewol=y
+CONFIG_PACKAGE_luci-i18n-control-timewol-zh-cn=y
+CONFIG_PACKAGE_etherwake=y
