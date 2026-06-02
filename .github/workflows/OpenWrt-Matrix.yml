@@ -109,7 +109,7 @@ jobs:
           seed="${{ matrix.name }}"
 
           # artifact_prefix rule
-          artifact_prefix="${{ matrix.name }}-GC404"
+          artifact_prefix="${{ matrix.name }}-HYH112"
 
           # sha_match rule
           sha_match="$name_lower"
@@ -306,10 +306,10 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@main
         with:
-          name: OpenWRT-${{ env.latest_release }}
+          name: OpenWRT-${{ env.latest_release }}-$(date +%Y-%m-%d)
           allowUpdates: true
           prerelease: false
-          tag: ${{ env.latest_release }}
+          tag: ${{ env.latest_release }}-$(date +%Y-%m-%d)
           commit: "25.12"
           replacesArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}
